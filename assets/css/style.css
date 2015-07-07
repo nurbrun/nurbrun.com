@@ -43,7 +43,7 @@ h1 {
 }
 
 .intro-content {
-  left: 30% !important;
+  left: 34.5% !important;
   top: 45% !important;
 
 }
@@ -58,7 +58,7 @@ h1 {
 }
 
 .footer {
-  color:rgba(255, 255, 255, 0.9) !important;
+  color: rgba(0, 0, 0, 0.8) !important;
 }
 
 .yellow-background {
@@ -84,7 +84,7 @@ h1 {
   /*font-weight: 350 !important;*/
 /*  padding-bottom: 13%;
 */  text-align: right !important;
-  padding-right: 15%;
+  /*padding-right: 15%;*/
 }
 
 
@@ -94,7 +94,7 @@ h1 {
   color:black;
   /*font-weight: 350 !important;*/
   /*padding-bottom: 13%;*/
-  text-align: right !important;
+  text-align: center !important;
   margin-bottom: 0px;
   margin-top: 50px;
   /*padding-right: 15%;*/
@@ -212,9 +212,16 @@ h1 {
     }
 
     .intro-text {
-        font-size: 20px;
+        font-size: 18px;
         margin-top: 50px;
+        text-transform:  uppercase;
+        letter-spacing: 1px;
     }
+}
+
+#tricks {
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 
@@ -315,6 +322,7 @@ canvas {
 
 .none-uptop {
     margin-bottom: 0px; 
+    letter-spacing: 1px;
 }
 .top-space {
     padding-top: 30px;
@@ -414,9 +422,11 @@ canvas {
 }
 
 .quote {
-  font-weight: 500 !important;
-  font-size: 45px !important;
+/*  font-weight: 500 !important;
+*/  font-size: 50px !important;
   font-family: 'Open Sans', Arial, 'Helvetica Neue', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 @media (min-width: 768px) {

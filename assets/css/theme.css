@@ -385,8 +385,8 @@ aside.cta-quote {
 }
 aside.cta-quote span.quote {
   display: block;
-  font-size: 30px;
-  line-height: 32px;
+ /* font-size: 30px;
+  line-height: 32px;*/
   font-weight: 300;
 }
 @media (min-width: 768px) {
@@ -395,8 +395,8 @@ aside.cta-quote span.quote {
     padding: 150px 0;
   }
   aside.cta-quote span.quote {
-    font-size: 36px;
-    line-height: 38px;
+    /*font-size: 36px;
+    line-height: 38px;*/
   }
 }
 @media (min-width: 992px) {
@@ -404,8 +404,8 @@ aside.cta-quote span.quote {
     padding: 300px 0;
   }
   aside.cta-quote span.quote {
-    font-size: 40px;
-    line-height: 42px;
+    /*font-size: 40px;
+    line-height: 42px;*/
   }
 }
 @media (min-width: 1025px) {
@@ -989,7 +989,7 @@ footer.footer {
   padding: 50px 0 20px;
 }
 footer.footer a {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.8);
 }
 footer.footer a:hover {
   color: white;
